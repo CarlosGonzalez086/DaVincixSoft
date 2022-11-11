@@ -1,0 +1,19 @@
+div{
+    color: beige;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    
+}
+h2{
+    text-align: justify;
+}
+h3{
+    text-align: justify;
+}
+button{
+    background-color: beige;
+}

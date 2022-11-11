@@ -1,0 +1,38 @@
+div{
+    color:beige;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    text-align: center;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: justify;
+}
+h3{
+    text-align: justify;
+}
+hr{
+    color: slategrey;
+}
+table, th, td {
+    border: 1rem transparent;
+    border-collapse:collapse;
+}
+td{
+    font-size:x-large;
+    
+}
+td.td1{
+    font-size: medium;
+}
+button{
+    background-color:transparent;
+    border-radius: 20px;
+}
+img{
+    border-radius: 20px;
+    
+}

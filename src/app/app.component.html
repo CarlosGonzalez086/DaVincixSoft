@@ -1,0 +1,51 @@
+<div class="container">
+<br>
+    <nav class="navbar navbar-expand-lg" style="border-radius: 30px;">
+      <div class="container-fluid">
+        <li class="nav-item">
+        <div class="avatra_mask">
+          <a [routerLink]="['/inicio']"><img src="assets/Leonardo_da_Vinci_-_presumed_self-portrait_-_WGA12798.jpg" class="avatar_nav"/></a>
+        </div>
+        
+      </li>
+        <a class="navbar-brand" href="#">
+          &nbsp;&nbsp;Da Vinci'X Soft
+        </a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" [routerLink]="['/inicio']">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/tecnologias']">Tecnologias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" [routerLink]="['/servicios']">Servicios</a>
+            </li>
+            <ul class="navbar-nav navbar-right" style="margin-left: 27rem;">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Informacion
+                </a>
+                <ul class="dropdown-menu" style=" background-color:rgb(48, 48, 48);">
+                  <li style="color:beige;"><a class="dropdown-item" [routerLink]="['acerca']">Acerca De</a></li>
+                  <li><a class="dropdown-item" [routerLink]="['experiencia']">Experiencia</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" [routerLink]="['contacto']">Contacto</a></li>
+                </ul>
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </div>
+<router-outlet></router-outlet>
